@@ -10,6 +10,7 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 " plugin management
 NeoBundleFetch 'Shougo/neobundle.vim'
 
+NeoBundle 'benekastah/neomake'
 " file tree
 NeoBundle 'scrooloose/nerdtree'
 " file tree and tabs interaction
@@ -22,6 +23,8 @@ NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'AutoComplPop'
 " tags list navigation
 NeoBundle 'taglist.vim'
+" generate tags 
+NeoBundle 'szw/vim-tags'
 " yank history
 NeoBundle 'YankRing.vim'
 " git integration
@@ -44,8 +47,6 @@ NeoBundle 'greplace.vim'
 NeoBundle 'bling/vim-airline'
 " plugin for resolving three-way merge conflicts
 NeoBundle 'sjl/splice.vim'
-" plugin for visually displaying indent levels
-NeoBundle 'Indent-Guides'
 " end certain structures automatically, e.g. begin/end etc.
 NeoBundle 'tpope/vim-endwise'
 " automatic closing of quotes, parenthesis, brackets, etc.
@@ -88,7 +89,7 @@ NeoBundle 'apidock.vim'
 " toggle ruby blocks style
 NeoBundle 'vim-scripts/blockle.vim'
 " lightweight Rspec runner for Vim
-NeoBundle 'josemarluedke/vim-rspec'
+NeoBundle 'thoughtbot/vim-rspec'
 " i18n extraction plugin
 NeoBundle 'stefanoverna/vim-i18n'
 
