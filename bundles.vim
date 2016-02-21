@@ -10,6 +10,8 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 " plugin management
 NeoBundleFetch 'Shougo/neobundle.vim'
 
+" html formating
+NeoBundle 'maksimr/vim-jsbeautify'
 NeoBundle 'benekastah/neomake'
 " file tree
 NeoBundle 'scrooloose/nerdtree'
@@ -89,7 +91,7 @@ NeoBundle 'apidock.vim'
 " toggle ruby blocks style
 NeoBundle 'vim-scripts/blockle.vim'
 " lightweight Rspec runner for Vim
-NeoBundle 'thoughtbot/vim-rspec'
+NeoBundle 'jannishuebl/vim-rspec'
 " i18n extraction plugin
 NeoBundle 'stefanoverna/vim-i18n'
 

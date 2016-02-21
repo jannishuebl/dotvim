@@ -13,5 +13,10 @@ source ~/.vim/before.vim   " local BEFORE configs
 " which should place it AFTER all the other plugins in the loading order
 " bindings.vim and local.vim are loaded from after.vim
 
-let g:rspec_command = "!cd ~/dev-setup && vagrant ssh -c 'cd /vagrant/apps/metoda_etl && bundle exec rspec {spec}'"
+let g:rspec_ssh_user = "vagrant"
+let g:rspec_ssh_ip = "127.0.0.1"
+let g:rspec_ssh_port = "2222"
+let g:rspec_local_folder = "~/ws/test2/"
+let g:rspec_remote_folder = "~/"
+
 autocmd! BufWritePost * Neomake
