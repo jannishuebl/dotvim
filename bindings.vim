@@ -69,3 +69,6 @@ nnoremap <C-l> <C-w>l
 
 " fast expand current file's directory in command mode
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
+
+" open nerdtree
+nmap <leader>w :NERDTree<CR>

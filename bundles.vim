@@ -73,6 +73,9 @@ NeoBundle 'airblade/vim-gitgutter'
 NeoBundle 'mattn/emmet-vim'
 " editorconfig.org support
 NeoBundle 'editorconfig/editorconfig-vim'
+" db client 
+NeoBundle 'mattn/webapi-vim'
+NeoBundle 'mattn/vdbi-vim'
 
 " Ruby/Rails
 
@@ -92,10 +95,9 @@ NeoBundle 'apidock.vim'
 NeoBundle 'vim-scripts/blockle.vim'
 " lightweight Rspec runner for Vim
 NeoBundle 'jannishuebl/vim-rspec'
-" i18n extraction plugin
-NeoBundle 'stefanoverna/vim-i18n'
 
 " color themes
+NeoBundle 'vim-airline/vim-airline-themes'
 NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'tpope/vim-vividchalk'
 NeoBundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
@@ -123,6 +125,7 @@ NeoBundle 'vitaly/vim-literate-coffeescript'
 NeoBundle 'rust-lang/rust', {'rtp': 'src/etc/vim/'}
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'mxw/vim-jsx'
+NeoBundle 'jeetsukumaran/vim-buffergator'
 
 " clojure
 "NeoBundle 'VimClojure'
@@ -161,6 +164,7 @@ NeoBundle 'Shougo/vimproc.vim', {
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/unite-outline'
 NeoBundle 'ujihisa/unite-colorscheme'
+NeoBundle 'jalvesaq/Nvim-R'
 
 if filereadable(expand("~/.vimrc.bundles"))
   source ~/.vimrc.bundles

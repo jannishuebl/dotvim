@@ -26,3 +26,5 @@ if has('gui_running')
     source ~/.gvimrc.after
   endif
 end
+
+ let maplocalleader = ","
