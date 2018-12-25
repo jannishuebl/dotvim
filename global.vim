@@ -95,3 +95,5 @@ runtime macros/matchit.vim
 
 let mapleader = ","
 let maplocalleader = "\\"
+
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'

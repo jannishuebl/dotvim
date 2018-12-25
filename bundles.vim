@@ -10,6 +10,8 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 " plugin management
 NeoBundleFetch 'Shougo/neobundle.vim'
 
+NeoBundle 'leafOfTree/vim-vue-plugin'
+NeoBundle 'leafgarland/typescript-vim'
 " html formating
 NeoBundle 'maksimr/vim-jsbeautify'
 NeoBundle 'benekastah/neomake'
@@ -126,6 +128,8 @@ NeoBundle 'rust-lang/rust', {'rtp': 'src/etc/vim/'}
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'mxw/vim-jsx'
 NeoBundle 'jeetsukumaran/vim-buffergator'
+
+NeoBundle 'mzlogin/vim-markdown-toc'
 
 " clojure
 "NeoBundle 'VimClojure'
